@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #333439;
+}
+
+/*--------- Estilização do cabeçalho e navbar ----------*/
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; 
+}
+
+#container-cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333439;
+  padding-top: 10px;
+}
+
+.titulo {
+  color: #dedfe4;
+  margin-left: 50px;
+}
+
+.titulo span {
+  color: #d19f4a;
+}
+
+.navegacao {
+  margin-right: 100px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.navbar ul li {
+  padding: 0px 50px 0px 50px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #dedfe4;
+}
+
+.link:hover {
+  cursor: pointer;
+  color: #d19f4a;
+  transition: color 0.5s ease;
+}
+
+/*---------- Estilização do conteúdo principal ---------- */
+
+#container-principal {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  background-color: #333439;
+}
+
+.cor-texto {
+  color: #dedfe4;
+}
+
+.titulo-principal {
+  font-weight: bolder;
+}
+
+.nome {
+  color: #d19f4a;
+  font-size: 70px;
+}
+
+.cor-texto a {
+  text-decoration: none;
+  color: #dedfe4;
+  font-style: italic;
+}
+
+#link-github:hover {
+  cursor: pointer;
+  color: #d19f4a;
+  transition: color 0.5s ease;
+}
+
+/*---------- Estilizando a seção dos Projetos ----------*/
+
+#projetos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 30px;
+  background-color: #2c2d32;
+  color: #dedfe4;
+}
+
+.texto-titulos {
+  font-size: 25px;
+  border-bottom: 3px solid #d19f4a;
+}
+
+#repositorio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.meus-projetos {
+  height: 500px;
+  width: 380px;
+  padding: 5px;
+  margin-top: 40px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px 1px #d19f4a;
+  background-color: #333439;
+}
+
+.alinhamento-texto {
+  text-align: center;
+}
+
+.imagem-projeto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.imagem-projeto img {
+  width: 220px;
+  height: 300px;
+  border-radius: 30px;
+}
+
+.btn-link {
+  background-color: #d19f4a;
+  border-radius: 5px;
+  color: #dedfe4;
+}
+
+.btn-link a {
+  color: black;
+  padding: 5px;
+  font-weight: bold;
+}
+
+/*---------- Estilização de Habilidades ----------*/
+#habilidades {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #333439;
+  color: #dedfe4;
+}
+
+#conteudo-habilidades {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+  gap: 20px;
+}
+
+.minhas-habilidades {
+  height: 80px;
+  width: 80px;
+  padding: 5px;
+  margin: 30px 0px 10px 0px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px 1px #d19f4a;
+  background-color: #333439;
+}
+
+/*---------- Rodapé ----------*/
+#rodape {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background-color: #2c2d32;
+  color: #dedfe4;
+}
+
+#contato {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-top: 50px;
+}
